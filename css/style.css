@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/*
+------------------------------------------------ */
+html {
+  font-size: 100%;
+}
+body {
+  line-height: 1.7;
+  color: #f8c053
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%
+}
+/* HEADER
+------------------------------------------------ */
+.logo {
+  width: auto;
+  margin-top: 14px;
+}
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  margin-top: 50px;
+  list-style: none;
+}
+.main-nav li {
+  margin-left: 80px;
+}
+.main-nav a {
+  color: #ffffff;
+}
+.main-nav a:hover {
+  color: #f8c053;
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+/* HOME
+------------------------------------------------ */
+.home-content {
+  text-align: center;
+  margin-top: 10%;
+}
+.home-content p{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0px 0 10px;
+  color: #ffffff;
+  background-color: rgba( 0, 0, 0, 0.5 );
+  margin: auto;
+  width: 800px;
+  padding-bottom: 30px;
+}
+/* 제목 */
+.page-tilte {
+  font-size: 120px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: rgba( 0, 0, 0, 0.5 );
+  width: 800px;
+  margin: auto;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.home-content h4{
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;\
+  font-weight: 400;
+  color: #f8c053;
+  margin-bottom: 0px;
+  background-color: rgba( 0, 0, 0, 0.5 );
+  margin: auto;
+  padding-bottom: 30px;
+  width: 800px;
+}
+.br {
+    color: #ffffff;
+}
+/* 푸터
+------------------------------------------------ */
+footer {
+  background-color: #302d29;
+  text-align: center;
+  padding: 3px 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+footer p {
+  color:#f8c053;
+  font-size: 0.875rem;
+  font-family: 'Montserrat', sans-serif;\
+  font-weight: 400;
+}
