@@ -5,6 +5,11 @@
 html {
   font-size: 100%;
 }
+@madia (max-width: 600px) {
+  h1 {
+    color: #0bd;
+  }
+}
 body {
   line-height: 1.7;
   color: #f8c053
@@ -88,6 +93,14 @@ img {
   padding-bottom: 30px;
   width: 800px;
 }
+.home-content h5{
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;\
+  font-weight: 400;
+  color:  #302d29;
+  margin-bottom: 0px;
+  margin: auto;
+}
 .br {
     color: #ffffff;
 }
@@ -105,4 +118,31 @@ footer p {
   font-size: 0.875rem;
   font-family: 'Montserrat', sans-serif;\
   font-weight: 400;
+}
+/* 모바일버전
+------------------------------------------------ */
+@madia (max-width: 600px) {
+  h1 {
+    .page-title: 2.5rem;
+  }
+  /* header*/
+  .main-nav {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .main-nav li {
+    margin: 0 20px;
+  }
+  /* home */
+  .home-content {
+    margin-top: 20%
+  }
+  .bgimg {
+      border: 0;
+      padding: 0;
+      background-image: url('image/main.jpg');
+      min-height: 100%;
+      background-position: center;
+      background-size: cover;
+  }
 }
